@@ -1,0 +1,91 @@
+body{
+    background-image: url('images/bg-intro-desktop.png');
+    background-color: hsl(0, 100%, 74%);
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (min-width: 0em) and  (max-width: 47em) {
+    .main{
+       padding: 3em 1.5em 1em 1.5em; 
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+       color: white;
+    }
+    .title{
+        margin-bottom: 3em;
+    }
+    .free-trial{
+        background-color:#5d54a3;
+        padding: 1.5em 4em;
+        font-size: 0.9em;
+        border-radius: 10px;
+        letter-spacing: 1px;
+        line-height: 1.75em;
+        margin-bottom: 2em;
+        box-shadow: 0px 10px 0px 0px rgba(222,102,103,255) 
+    }
+    .form{
+        background-color: white;
+        padding:1.5em 0;
+        border-radius: 7px;
+        box-shadow: 0px 10px 0px 0px rgba(222,102,103,255) 
+        /* display: flex;
+        flex-direction: column; */
+    }
+    .form input{
+        width: 80% ;
+        padding: 1em;
+        color: #5f5e63;
+        text-decoration: none;
+        margin-bottom: 1em;
+        border-style: solid;
+        border-color: rgba(222,222,222,255);
+        border-radius: 7px;
+        font-weight: bold;
+        color: rgb(49, 49, 49);;
+        font-family: 'Poppins', sans-serif;
+    }
+    .form input:focus{
+        border:1px solid black ;
+
+        outline: none;
+    }
+    input:invalid{
+        border-color: red;
+    }
+    ::placeholder{
+        color: rgba(108,107,112,255);
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif; 
+    }
+    .submit {
+        display: inline-block;
+        font-family: 'Poppins', sans-serif; 
+        font-weight: bold;
+        font-size:0.9em;
+        border:none;
+        color: white;
+        width:90%;
+        background-color: rgba(55,204,138,255);
+        padding: 1.5em;
+        border-radius: 7px;
+        letter-spacing: 2px;
+        box-shadow: 0px 5px 0px 0px rgba(68,176,131,255)
+    }
+    .terms {
+        color: rgba(199,196,213,255);
+        font-size: 0.75em;
+        padding: 0 3em;
+        
+    }
+    .terms span{
+        font-weight: bold;
+        color:rgba(231,150,150,255) ;
+    }
+}
+@media (min-width: 48em) and  (max-width: 70em) {
+    body{
+        
+    }
+}
