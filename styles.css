@@ -51,9 +51,7 @@ body{
 
         outline: none;
     }
-    input:invalid{
-        border-color: red;
-    }
+    
     ::placeholder{
         color: rgba(108,107,112,255);
         font-weight: bold;
